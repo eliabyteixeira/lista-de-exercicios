@@ -1,0 +1,92 @@
+{
+  "categorias": [
+    {
+      "id": 1,
+      "nome": "Acentuação"
+    },
+    {
+      "id": 2,
+      "nome": "Pontuação"
+    }
+  ],
+  "questoes": [
+    {
+      "id": 1,
+      "idCategoria": 1,
+      "instituicao": "Super Ensino",
+      "enunciado": "Analise as afirmativas a seguir: I - Queria saber o por quê dessa confusão. II - Queria saber por que você faltou aula. III - Acordo cedo porque gosto de estudar. Com relação ao uso dos porquês, estão corretas:",
+      "alternativas": {
+        "a": "II e III.",
+        "b": "apenas a I.",
+        "c": "I, II e III.",
+        "d": "apenas a III."
+      }
+    },
+    {
+      "id": 2,
+      "idCategoria": 1,
+      "instituicao": "Super Ensino",
+      "enunciado": "Na BNCC, o Ensino Fundamental está organizado em áreas do conhecimento, que favorecem a comunicação entre os conhecimentos e saberes dos diferentes componentes curriculares. Marque a alternativa CORRETA em relação as áreas do conhecimento:",
+      "alternativas": {
+        "a": "Linguagens, matemática, ciências da natureza, ciências humanas e ensino religioso.",
+        "b": "Português, matemática, história, ciências da natureza e ensino religioso.",
+        "c": "Artes, matemática, ciências, geografia e enriquecimento pessoal.",
+        "d": "Educação física, matemática, ciências da natureza e ensino religioso."
+      }
+    },
+    {
+      "id": 3,
+      "idCategoria": 2,
+      "instituicao": "Super Ensino",
+      "enunciado": "Conforme disposto na Base Nacional Comum Curricular (BRASÍLIA, 2018), os seis direitos de aprendizagem e desenvolvimento asseguram, na Educação Infantil_________. Assinale a alternativa que preenche corretamente a lacuna sobre a BNCC.",
+      "alternativas": {
+        "a": "as condições para que as crianças aprendam em situações nas quais possam desempenhar um papel ativo em ambientes que as convidem a vivenciar desafios e a sentirem-se provocadas a resolvê-los, nas quais possam construir significados sobre si, os outros e o mundo social e natural",
+        "b": "as condições para que as crianças aprendam em ambientes que as convidem a vivenciar desafios e a sentirem-se provocadas a resolvê-los",
+        "c": "as condições para que as crianças aprendam em situações nas quais possam desempenhar um papel ativo em ambientes que as convidem a vivenciar desafios e a sentirem-se provocadas a resolvê-los, esperando o cuidado dos adultos para um bom desempenho no mundo social e natural",
+        "d": "as condições para que as crianças aprendam em situações nas quais são estudantes e possam vivenciar desafios e serem provocadas a resolvê-los, nas quais possam construir significados sobre si"
+      }
+    },
+    {
+      "id": 4,
+      "idCategoria": 2,
+      "instituicao": "Super Ensino",
+      "enunciado": "Analise as afirmativas a seguir: \nI - Queria saber o por quê dessa confusão. \nII - Queria saber por que você faltou aula. \nIII - Acordo cedo porque gosto de estudar. Com relação ao uso dos porquês, estão corretas:",
+      "alternativas": {
+        "a": "Conhecer e compreender as relações com a natureza, com a cultura e com a produção científica",
+        "b": "Que não se traduzem nas práticas de cuidados pessoais (alimentar-se, vestir-se, higienizar-se)",
+        "c": "Que se traduzem nas brincadeiras, nas experimentações com materiais variados, na aproximação com a literatura e no encontro com as pessoas",
+        "d": "Parte do trabalho do educador é refletir, selecionar, organizar, planejar, mediar e monitorar o conjunto das práticas e interações, garantindo a pluralidade de situações que promovam o desenvolvimento pleno das crianças"
+      }
+    }
+  ],
+  "gabarito": [
+    {
+      "idQuestao": 1,
+      "resposta": "a"
+    },
+    {
+      "idQuestao": 2,
+      "resposta": "d"
+    },
+    {
+      "idQuestao": 3,
+      "resposta": "b"
+    },
+    {
+      "idQuestao": 4,
+      "resposta": "c"
+    }
+  ],
+  "simuladoSalvo": [
+    {
+      "idQuestao": 1,
+      "reposta": "a",
+      "id": 1
+    },
+    {
+      "idQuestao": 1,
+      "reposta": "a",
+      "id": 2
+    }
+  ]
+}

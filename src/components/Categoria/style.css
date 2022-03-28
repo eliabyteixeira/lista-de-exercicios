@@ -1,0 +1,14 @@
+.lista-questoes {
+   padding: 1rem 0;
+   display: none;
+   height: 0;
+   transition: height 0.3s ease-in;
+}
+.button-questao {
+   padding: 8px 24px;
+   border: 1px solid #3a3a3a;
+   border-radius: 4px;
+   margin-right: 16px;
+   font-size: 0.75rem;
+   font-weight: 500;
+}

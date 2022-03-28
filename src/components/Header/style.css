@@ -1,0 +1,19 @@
+.container-header {
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   height: 100px;
+   background-color: #1C1C1C;
+   padding: 2rem;
+   text-align: center;
+   color: #fff;
+   position:sticky;
+}
+
+.container-header a {
+   color: #00FA9A;
+   transition: color 0.2s ease-in-out;
+}
+.container-header a:hover {
+   color: #00FF00;
+}

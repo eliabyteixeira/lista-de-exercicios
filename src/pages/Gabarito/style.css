@@ -1,0 +1,10 @@
+.gabarito {
+   padding: 2rem;
+}
+.gabarito h2 {
+   padding: 1rem 0;
+}
+.gabarito p {
+   padding: 1rem 0;
+   font-weight: 600;
+}

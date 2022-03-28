@@ -1,0 +1,52 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+textarea:focus, 
+input:focus, 
+select:focus, 
+button:focus { 
+   outline: none !important; 
+   box-shadow: none !important; 
+} 
+
+body, h1, h2, h3, h4, h5, h6, p, button, input {
+   font-family: 'Tahoma', sans-serif;
+}
+
+body {
+   background-color: #fff;
+}
+
+.container {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+}
+
+.show {
+   display: flex;
+   height: auto
+}
+
+.d-flex {
+   display: flex;
+}
+.jc-end {
+   justify-content: end;
+}
+.jc-between {
+   justify-content: space-between;
+}
+
+.flex-column {
+   flex-direction: column;
+}
+
+.ai-center {
+   align-items: center;
+}

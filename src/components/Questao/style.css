@@ -1,0 +1,95 @@
+.card-questao {
+   background-color: #f9f9f9;
+   padding: 2rem;
+   border-radius: 6px;
+   width: 800px;
+}
+
+.info {
+   font-size: 1rem;
+   font-weight: 600;
+   color: #1E90FF;
+}
+
+.info span {
+   color: #c9c9c9;
+}
+
+.enunciado {
+   font-size: 1rem;
+   line-height: 150%;
+   font-weight: 600;
+   color: #363636;
+   padding-bottom: 1rem;
+}
+
+.alternativas {
+   list-style: none;
+   margin-bottom: 2rem;
+}
+
+.alternativas li {
+   padding: 12px 0;
+   color: #363636;
+}
+
+.alternativas li:hover {
+   color: #1c1c1c;
+}
+
+.alternativas li .opcoes {
+   padding: 8px 12px;
+   margin-right: 12px;
+   background-color: #c0c0c0;
+   border-radius: 6px;
+   color: #fff;
+   border: 1px;
+   transition: background-color 150ms ease-in-out;
+}
+
+.alternativas li .opcoes:hover {
+   background-color: #A9A9A9;
+}
+
+.botao-resposta {
+   padding: 16px 24px;
+   background-color: #00BFFF;
+   color: #fff;
+   border-radius: 6px;
+   border: 1px;
+   font-weight: 600;
+   box-shadow: 0 0 15px rgba(0, 0, 0, .2);
+   transition: background-color 150ms ease-in-out;
+}
+
+.botao-resposta:hover {
+   background-color: #1E90FF;
+}
+
+.botao-voltar {
+   padding: 16px 24px;
+   color: #fff;
+   border-radius: 6px;
+   border: 1px;
+   font-weight: 600;
+   box-shadow: 0 0 15px rgba(0, 0, 0, .2);
+   transition: background-color 150ms ease-in-out;   
+   background-color: #363636;
+}
+
+.botao-voltar:hover {
+   background-color: #1c1c1c;
+}
+
+.opcao-selecionada {
+   background-color: #00BFFF!important;
+}
+
+#info-resposta {
+   font-weight: 600;
+   font-size: 0.9rem;
+   padding: 8px 12px;
+   border-radius: 6px;
+   color: #4169E1;
+   display: none;
+}
