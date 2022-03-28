@@ -13,10 +13,15 @@ const Gabarito = () => {
       buscaGabarito();
    }, []);
 
+   if (!gabarito) {
+      return <p>carregando...</p>
+   }
+
    async function buscaResultados() {
       const res = await api.get('simuladoSalvo');
 
-      if (res.data) {
+
+      if (res.status === 200) {
          console.log('respostas salvas', res.data);
          setResultados(res.data);
       } else {
@@ -27,7 +32,8 @@ const Gabarito = () => {
    async function buscaGabarito() {
       const res = await api.get('gabarito');
 
-      if (res.data) {
+
+      if (res.status === 200) {
          console.log('gabarito', res.data);
          setGabarito(res.data);
          checaAcertos();
@@ -38,17 +44,29 @@ const Gabarito = () => {
 
    function checaAcertos() {
       resultados.forEach((elemento: any) => {
-         const res = gabarito.filter((gab: any) => gab.idQuestao == elemento.idQuestao && gab.resposta == elemento.resposta);
+         const res = gabarito.filter((gab: any) => gab.idQuestao === elemento.idQuestao && gab.resposta === elemento.resposta);
          console.log('acertos', res.length);
       });
    }
 
    return (
       <section className="gabarito" >
-         <h2>Meus resultados</h2>
-         <p>Questões respondidas: {resultados.length}</p>
-         <p>Acertos: {}</p>
-         <p>Erros: {}</p>
+         <ul>
+            <h2>Gabarito</h2>
+            {gabarito.map((item: any) => {
+               return (
+                  <li key={item.idQuestao}>{item.idQuestao} - {item.resposta}</li>
+               );
+            })}
+         </ul>
+         <ul>
+            <h2>Minhas respostas</h2>
+            {resultados.map((item: any) => {
+               return (
+                  <li key={item.idQuestao}>{item.idQuestao} - {item.resposta}</li>
+               );
+            })}
+         </ul>
       </section>
    );
 }

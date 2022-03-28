@@ -33,7 +33,7 @@ const Exercicio = () => {
          
       console.log("buscarQuestoesDaCategoria", res);
 
-      if (res.status == 200) {
+      if (res.status === 200) {
 
          setQuestoes(res.data);
          filtraQuestao(res.data);

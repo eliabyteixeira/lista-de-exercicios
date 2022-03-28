@@ -25,7 +25,7 @@ const Questao = (props: any) => {
          }, 5000);
          
       } else {
-         api.post(`/simuladoSalvo`, { "idQuestao": props.dados.id, "reposta": selecionada })
+         api.post(`/simuladoSalvo`, { "idQuestao": props.dados.id, "resposta": selecionada })
             .then(res => {
                console.log(res);
                document.getElementById("info-resposta")!.innerText = "Resposta salva!";

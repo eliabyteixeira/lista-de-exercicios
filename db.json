@@ -78,15 +78,6 @@
     }
   ],
   "simuladoSalvo": [
-    {
-      "idQuestao": 1,
-      "reposta": "a",
-      "id": 1
-    },
-    {
-      "idQuestao": 1,
-      "reposta": "a",
-      "id": 2
-    }
+    
   ]
 }
