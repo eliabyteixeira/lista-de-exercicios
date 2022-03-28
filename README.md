@@ -2,14 +2,14 @@
 
 Para executar o projeto rodar os segunintes comandos
 
-instalar as dependencias
-`npm install`
+## instalar as dependencias
+```npm install```
 
-executar o json-server (deixar rodando em um terminal separado)
-`json-server --watch db.json`
+## executar o json-server (deixar rodando em um terminal separado)
+```json-server --watch db.json```
 
-executar o json-server
-`npm start`
+## executar a aplicação
+```npm start```
 
 
 Obs: falta concluir a página de "ver desempenho", onde iria mostrar o resumo:
